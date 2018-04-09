@@ -1,0 +1,10 @@
+/* this is the first jumbotron with the slogan */ 
+.jumbotron-fluid{
+    background-color: grey;
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+}
+/* .Icons{
+    text-align: center;
+} */
