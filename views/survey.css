@@ -1,0 +1,9 @@
+.jumbotron-fluid{
+    height: 30%;
+    background-color: grey;
+}
+.container-fluid{
+    width: 50%;
+    align-content: center;
+    border: 3px solid grey;
+}

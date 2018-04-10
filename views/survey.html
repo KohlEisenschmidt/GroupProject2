@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+        <head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="survey.css">
+<title>RWB+1</title>
+<!-- this is the nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="area.html">Areas</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+            </ul>
+            <span class="navbar-item">
+                <a class="nav-link" href="#">Maybe a Login/Register</a>
+            </span>
+        </div>
+        </nav>
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Survey</h1>
+        <p class="lead">Take a few moments to complete this survey so we can better match you.</p>
+    </div>
+</div>
+<div class="container-fluid">
+<form>
+        <label for="name"><br></label>
+        <div class="row">
+            <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+    <div class="form-group">
+        <label for="gender"><br>Select Gender</label>
+        <select class="form-control" id="gender">
+        <option>Female</option>
+        <option>Male</option>
+        <option>Other</option>
+        <option>Rather not disclose</option>
+        </select>
+    <div class="form-group">
+        <label for="activity"><br>Select an activity</label>
+        <select class="form-control" id="activity">
+            <option>Run</option>
+            <option>Walk</option>
+            <option>Bike</option>
+        </select>
+        </div>
+       <div class="form-group">
+        <label for="area"><br>Choose your desired area</label>
+        <select class="form-control" id="area">
+            <option>Uptown</option>
+            <option>East</option>
+            <option>West</option>
+            <option>North</option>
+            <option>South</option>
+        </select>
+        <div class="form-group">
+        <label for="intensity"><br>What is your pace</label>
+        <select class="form-control" id="intensity">
+            <option>Slow</option>
+            <option>Moderate</option>
+            <option>Fast</option>
+        </select>
+        <div class="form-group">
+        <label for="time_in_min"><br>For how long would you like to do this</label>
+        <select class="form-control" id="time_in_min">
+            <option>15 minutes</option>
+            <option>30 minutes</option>
+            <option>45 minutes</option>
+            <option>1 hour +</option>
+        </select>
+        <div class="form-group">
+            <label for="image"><br>Upload your image</label>
+            <input type="file" class="form-control-file" id="image">
+        </div>
+      </form>
+      <button type="button" class="btn btn-secondary btn-lg btn-block">Submit</button>
+
+</div>
+</body>
+<hr>
+<p class="text-center">© 2018 Copyright</p>
+</html>

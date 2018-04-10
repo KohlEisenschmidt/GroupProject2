@@ -1,0 +1,11 @@
+.container-fluid{
+    width: 50%;
+    align-content: center;
+    border: 3px solid grey;
+    background:grey;
+    border-radius: 10px;
+}
+
+.contact{
+    margin-left: 50px;
+}
