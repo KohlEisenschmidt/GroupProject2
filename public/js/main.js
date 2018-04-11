@@ -1,4 +1,4 @@
-
+console.log("main has loaded");
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
     apiKey: "AIzaSyATOhdQTrlYEQo5ZRlQRvl12wCq2EumQ8s",
