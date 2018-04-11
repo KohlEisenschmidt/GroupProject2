@@ -1,189 +1,187 @@
 
 -- ### Seeds
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Thomas', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Thomas', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Sam', "M", "Run", "West", "moderate", 30 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Sam', "Male", "Run", "West", "moderate", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Millissa', "F", "Bike", "East", "moderate", 60 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Millissa', "Female", "Bike", "East", "moderate", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Kohl', "M", "Run", "East", "strenuous", 45 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Kohl', "Male", "Run", "East", "strenuous", "http://via.placeholder.com/300" );
 
+ INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Klara', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Klara', "M", "Walk", "North", "light", 60 );
 
 
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Ellen', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Allex Bradley', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Ellen', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Taddes', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Allex Bradley', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Philo', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Taddes', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('KT', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Philo', "M", "Walk", "North", "light", 60 );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('KT', "M", "Walk", "North", "light", 60 );
 
 
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Brandt', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Abby', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Brandt', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Andrew', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Abby', "M", "Walk", "North", "light", 60 )
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Daniel Crowley', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Andrew', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Daniel Doyle', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Daniel Crowley', "M", "Walk", "North", "light", 60 );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Daniel Doyle', "M", "Walk", "North", "light", 60 );
 
 
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Erik', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Jeffrey', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Erik', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Jennifer', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Jeffrey', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Max', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Jennifer', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Melia', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Max', "M", "Walk", "North", "light", 60 );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Melia', "M", "Walk", "North", "light", 60 );
 
 
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Robert', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Sergio', "Male", "Walk", "North", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Robert', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Ron Burgundy', "Male", "Walk", "South", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Sergio', "M", "Walk", "North", "light", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Frodo Baggins', "Male", "Walk", "East", "moderate", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Ron Burgundy', "M", "Walk", "South", "light", 60 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Captin Jack Sparrow', "Male", "Bike", "North", "moderate", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Frodo Baggins', "M", "Walk", "East", "moderate", 60 );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Captin Jack Sparrow', "M", "Bike", "North", "moderate", 60 );
 
 
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Derek Zoolander', "Male", "Run", "South", "moderate", "http://via.placeholder.com/300" );
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Wolverine', "Male", "Bike", "West", "moderate", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Derek Zoolander', "M", "Run", "South", "moderate", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('McLovin', "Male", "Walk", "East", "light", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Wolverine', "M", "Bike", "West", "moderate", 60 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Gandalf', "Male", "Run", "North", "moderate", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('McLovin', "M", "Walk", "East", "light", 15 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Harry Potter', "Male", "Bike", "North", "light", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Gandalf', "M", "Run", "North", "moderate", 45 );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Harry Potter', "M", "Bike", "North", "light", 60 );
 
 
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Napoleon Dynamite', "Male", "Bike", "West", "light", "http://via.placeholder.com/300" );
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Batman', "Male", "Bike", "South", "strenuous", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Napoleon Dynamite', "M", "Bike", "West", "light", 15 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Buddy the Elf', "Male", "Bike", "East", "light", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Batman', "M", "Bike", "South", "strenuous", 60 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('James Bond', "Male", "Run", "Center", "light", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Buddy the Elf', "M", "Bike", "East", "light", 45 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Shrek', "Male", "Walk", "West", "strenuous", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('James Bond', "M", "Run", "Center", "light", 60 );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Shrek', "M", "Walk", "West", "strenuous", 60 );
 
 
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Tony Stark', "Male", "Run", "South", "moderate", "http://via.placeholder.com/300" );
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Peter Parker', "Male", "Bike", "South", "moderate", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Tony Stark', "M", "Run", "South", "moderate", 15 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Queen Elizabeth', "Female", "Run", "South", "strenuous", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Peter Parker', "M", "Bike", "South", "moderate", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Dorthy Gale', "Female", "Walk", "South", "light", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Queen Elizabeth', "W", "Run", "South", "strenuous", 45 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Sansa Stark', "Female", "Bike", "North", "strenuous", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Dorthy Gale', "W", "Walk", "South", "light", 30 );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Sansa Stark', "W", "Bike", "North", "strenuous", 60 );
 
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Elaine Benes', "Male", "Run", "South", "moderate", "http://via.placeholder.com/300" );
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Hermione Granger', "Female", "Bike", "South", "moderate", 20, "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Elaine Benes', "M", "Run", "South", "moderate", 15 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Xena', "Female", "Run", "South", "strenuous", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Hermione Granger', "W", "Bike", "South", "moderate", 20 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Mulan', "Female", "Run", "East", "moderate", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Xena', "W", "Run", "South", "strenuous", 45 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Lucy Ricardo', "Female", "Bike", "South", "strenuous", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Mulan', "W", "Run", "East", "moderate", 30 );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Lucy Ricardo', "W", "Bike", "South", "strenuous", 60 );
 
 
 
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Claire Underwood', "Female", "Run", "South", "moderate", "http://via.placeholder.com/300" );
 
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Katniss Everdeen', "Female", "walk", "west", "strensuous", 20, "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Claire Underwood', "W", "Run", "South", "moderate", 15 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Phoebe Buffay', "Female", "Run", "East", "light", "http://via.placeholder.com/300" );
 
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Katniss Everdeen', "W", "walk", "west", "strensuous", 20 );
+INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+VALUES ('Mary Poppins', "Female", "Bike", "East", "moderate", "http://via.placeholder.com/300" );
 
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Phoebe Buffay', "W", "Run", "East", "light", 45 );
-
-INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-VALUES ('Mary Poppins', "W", "Bike", "East", "moderate", 30 );
-
-            INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Princess', "W", "Walk", "East", "moderate", 60 );
+            INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
+            VALUES ('Princess', "Female", "Walk", "East", "moderate", "http://via.placeholder.com/300" );
