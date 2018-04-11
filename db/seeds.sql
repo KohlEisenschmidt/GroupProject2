@@ -156,7 +156,7 @@ INSERT INTO profiles (person_name, gender, activity, area, intensity, image)
 VALUES ('Elaine Benes', "Male", "Run", "South", "moderate", "http://via.placeholder.com/300" );
 
 INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
-VALUES ('Hermione Granger', "Female", "Bike", "South", "moderate", 20, "http://via.placeholder.com/300" );
+VALUES ('Hermione Granger', "Female", "Bike", "South", "moderate", "http://via.placeholder.com/300" );
 
 INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
 VALUES ('Xena', "Female", "Run", "South", "strenuous", "http://via.placeholder.com/300" );
@@ -175,7 +175,7 @@ INSERT INTO profiles (person_name, gender, activity, area, intensity, image)
 VALUES ('Claire Underwood', "Female", "Run", "South", "moderate", "http://via.placeholder.com/300" );
 
             INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
-            VALUES ('Katniss Everdeen', "Female", "walk", "west", "strensuous", 20, "http://via.placeholder.com/300" );
+            VALUES ('Katniss Everdeen', "Female", "walk", "west", "strensuous", "http://via.placeholder.com/300" );
 
 INSERT INTO profiles (person_name, gender, activity, area, intensity, image)  
 VALUES ('Phoebe Buffay', "Female", "Run", "East", "light", "http://via.placeholder.com/300" );
