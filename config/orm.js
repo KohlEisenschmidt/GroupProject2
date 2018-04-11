@@ -45,6 +45,42 @@ var orm = {
         cb(result);
       });
     },
+    activity: function(activity, cb) {
+        var queryString = "SELECT * FROM profiles WHERE activity='" + activity + "';";
+        connection.query(queryString, function(err, result) {
+          if (err) {
+            throw err;
+          }
+          cb(result);
+        });
+      },
+      area: function(area, cb) {
+        var queryString = "SELECT * FROM profiles WHERE area='" + area + "';";
+        connection.query(queryString, function(err, result) {
+          if (err) {
+            throw err;
+          }
+          cb(result);
+        });
+      },
+      intensity: function(intensity, cb) {
+        var queryString = "SELECT * FROM profiles WHERE intensity='" + intensity + "';";
+        connection.query(queryString, function(err, result) {
+          if (err) {
+            throw err;
+          }
+          cb(result);
+        });
+      },
+      match: function(activity, area, intensity, cb) {
+        var queryString = "SELECT * FROM profiles WHERE activity='" + activity + "' AND area='" + area + "' AND intensity='" + intensity + "';";
+        connection.query(queryString, function(err, result) {
+          if (err) {
+            throw err;
+          }
+          cb(result);
+        });
+      },
     create: function(table, cols, vals, cb) {
       var queryString = "INSERT INTO " + table;
   

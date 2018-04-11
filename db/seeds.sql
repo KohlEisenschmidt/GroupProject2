@@ -89,7 +89,7 @@ VALUES ('Kohl', "M", "Run", "East", "strenuous", 45 );
             VALUES ('Ron Burgundy', "M", "Walk", "South", "light", 60 );
 
             INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
-            VALUES ('Frodo Baggins', "M", "Walk", "North", "moderate", 60 );
+            VALUES ('Frodo Baggins', "M", "Walk", "East", "moderate", 60 );
 
 INSERT INTO profiles (person_name, gender, activity, area, intensity, time_in_min) 
 VALUES ('Captin Jack Sparrow', "M", "Bike", "North", "moderate", 60 );
