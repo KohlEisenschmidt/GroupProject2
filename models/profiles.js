@@ -29,7 +29,7 @@ module.exports = function(sequelize, DataTypes) {
   );
 
   // Syncs with DB
-  // Profile.sync();
+  Profile.sync();
 
   // // Makes the Character Model available for other files (will also create a table)
   // module.exports = Profile;
