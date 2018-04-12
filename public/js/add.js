@@ -18,13 +18,40 @@ $("#add-btn").on("click", function(event) {
       image: $("#userPhoto").val().trim(),
       
     };
-  
+    var exactmatches = "";
+    $.post("/api/exactmatch", newProfile)
+    // on success, run this callback
+    .then(function(data) {
+      // log the data we found
+      console.log("exactmatch ", data);
+     exactmatches=data;
+      // tell the user we're adding a character with an alert window
+    });
+    var activityintensity = "";
+    $.post("/api/activityintensity", newProfile)
+    // on success, run this callback
+    .then(function(data) {
+      // log the data we found
+      console.log("matchactivityintensicy ", data);
+      activityintensity=data;
+      // tell the user we're adding a character with an alert window
+    });
+    var activityarea = "";
+    $.post("/api/activityarea", newProfile)
+    // on success, run this callback
+    .then(function(data) {
+      // log the data we found
+      console.log("matchactivityarea ", data);
+      activityarea=data;
+      // tell the user we're adding a character with an alert window
+    });
     // send an AJAX POST-request with jQuery
     $.post("/api/new", newProfile)
       // on success, run this callback
       .then(function(data) {
         // log the data we found
         console.log(data);
+       
         // tell the user we're adding a character with an alert window
       });
   
