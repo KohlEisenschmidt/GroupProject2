@@ -3,7 +3,12 @@ var mysql = require("mysql");
 var connection;
 
 if (process.env.JAWSDB_URL){
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
+  connection = mysql.createConnection({
+    port: process.env.JAWSDB_URL,
+    user: "t7rq8zhowhjbm51t",
+    password:"gskkqg2kr8pmskqa",
+    database: "WBR_db"
+  });
 } else {
   connection = mysql.createConnection({
     host: "localhost",
