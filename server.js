@@ -20,6 +20,7 @@ app.use(express.static("public"));
 
 //ROUTER
 require('./app/routing/html-routes.js')(app);
+require('./app/routing/api.routes.js')(app);
 
 // Starts the server to begin listening.
 db.sequelize.sync().then(function(){

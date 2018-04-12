@@ -8,7 +8,7 @@
 module.exports = function(sequelize, DataTypes) {
   // Creates a "Character" model that matches up with DB
   var Profile = sequelize.define(
-    "profile",
+    "Profile",
     {
       // the routeName gets saved as a string
       person_name: DataTypes.STRING,
@@ -19,7 +19,9 @@ module.exports = function(sequelize, DataTypes) {
       // the character's age (a string)
       area: DataTypes.STRING,
       // and the character's force points (an int)
-      intensity: DataTypes.STRING
+      intensity: DataTypes.STRING,
+
+      image: DataTypes.STRING
     },
     {
       timestamps: false
