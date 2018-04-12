@@ -44,4 +44,7 @@ module.exports = function(app){
     app.get("/westcharlotte", function(req, res) {
         res.sendFile(path.join(__dirname, "/../../public/westcharlotte.html"));
     });
+    app.get("/matches", function(req, res) {
+        res.sendFile(path.join(__dirname, "/../../public/matches.html"));
+    });
 }

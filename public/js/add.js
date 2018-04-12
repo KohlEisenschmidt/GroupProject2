@@ -8,14 +8,14 @@ $("#add-btn").on("click", function(event) {
     // make a newCharacter obj
     var newProfile = {
       // name from name input
-      person_name: $("#name").val().trim(),
+      person_name: $("#name").val(),
       // role from role input
-      gender: $("#gender").val().trim(),
+      gender: $("#gender").val(),
       // age from age input
-      activity: $("#activity").val().trim(),
-      area: $("#area").val().trim(),
-      intensity: $("#intensity").val().trim(),
-      image: $("#userPhoto").val().trim(),
+      activity: $("#activity").val(),
+      area: $("#area").val(),
+      intensity: $("#intensity").val(),
+      image: $("#userPhoto").val(),
       
     };
     var exactmatches = "";
@@ -24,6 +24,7 @@ $("#add-btn").on("click", function(event) {
     .then(function(data) {
       // log the data we found
       console.log("exactmatch ", data);
+      localStorage.setItem("exactmatch", JSON.stringify(data));
      exactmatches=data;
       // tell the user we're adding a character with an alert window
     });
@@ -33,6 +34,7 @@ $("#add-btn").on("click", function(event) {
     .then(function(data) {
       // log the data we found
       console.log("matchactivityintensicy ", data);
+      localStorage.setItem("matchactivityintensity", JSON.stringify(data));
       activityintensity=data;
       // tell the user we're adding a character with an alert window
     });
@@ -42,6 +44,7 @@ $("#add-btn").on("click", function(event) {
     .then(function(data) {
       // log the data we found
       console.log("matchactivityarea ", data);
+      localStorage.setItem("matchactivityarea", JSON.stringify(data));
       activityarea=data;
       // tell the user we're adding a character with an alert window
     });
