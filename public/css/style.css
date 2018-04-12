@@ -6,3 +6,13 @@
 
 }
 
+/* This aligns that Twitter and Facebook share buttons */
+
+.twitter-share-button[style] { 
+    vertical-align: top !important; 
+}
+
+.fb-share-button[style] { 
+    vertical-align: top !important; 
+}
+
