@@ -18,6 +18,8 @@ $("#add-btn").on("click", function(event) {
       image: $("#userPhoto").val(),
       
     };
+
+
     var exactmatches = "";
     $.post("/api/exactmatch", newProfile)
     // on success, run this callback
@@ -26,18 +28,21 @@ $("#add-btn").on("click", function(event) {
       console.log("exactmatch ", data);
       localStorage.setItem("exactmatch", JSON.stringify(data));
      exactmatches=data;
-      // tell the user we're adding a character with an alert window
+     
     });
+
+
     var activityintensity = "";
     $.post("/api/activityintensity", newProfile)
     // on success, run this callback
     .then(function(data) {
       // log the data we found
-      console.log("matchactivityintensicy ", data);
+      console.log("matchactivityintensity ", data);
       localStorage.setItem("matchactivityintensity", JSON.stringify(data));
       activityintensity=data;
-      // tell the user we're adding a character with an alert window
+     
     });
+
     var activityarea = "";
     $.post("/api/activityarea", newProfile)
     // on success, run this callback
@@ -48,6 +53,8 @@ $("#add-btn").on("click", function(event) {
       activityarea=data;
       // tell the user we're adding a character with an alert window
     });
+
+
     // send an AJAX POST-request with jQuery
     $.post("/api/new", newProfile)
       // on success, run this callback
@@ -55,7 +62,7 @@ $("#add-btn").on("click", function(event) {
         // log the data we found
         console.log(data);
        
-        // tell the user we're adding a character with an alert window
+  
       });
   
     // empty each input box by replacing the value with an empty string

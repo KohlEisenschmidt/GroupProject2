@@ -8,25 +8,23 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/area.css">
-</head>
-
 
 <!-- this is the nav bar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/index"><img src="images/logo.png"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/area">Areas</a>
+              <a class="nav-link" href="area.html">Areas</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
           </ul>
           <span class="navbar-item">
@@ -34,8 +32,81 @@
           </span>
         </div>
       </nav>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: 'left left middle middle right right'; 
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+/* .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+} */
+h1 {
+  text-align: center;
+}
+.left,
+.middle,
+.right {
+  padding: 10px;
+  text-align: center;
+}
+.left {
+  grid-area: left;
+  padding-right: 300px;
+  padding-left: 150px;
+}
+.middle {
+  grid-area: middle;
+}
+.right {
+  grid-area: right;
+  padding-right: 250px;
+  padding-left: 100px;
+}
+.east_img {
+  text-align: center
+}
+</style>         
 </head>
 <body>
-    <p>This is the east charlotte page.</p>
+    <div class="east_img">
+        <a href="eastcharlotte.html">
+          <img class="eastcharlottePhoto" src="images/eastcharlotte.png" alt="East Charlotte Neighborhoods">
+        </a>
+    </div>
+  <h1> East Charlotte </h1>
+  <div class="grid-container">
+    <div class="left">
+      <h1>Ambiguous but Distinctive</h1>
+      <p>A somewhat ambiguous, but distinctive, area covering a large portion of the city's eastern end. East Charlotte contains the city's 
+        most diverse population and varying income levels. Much of the east side contains some of Charlotte's most interesting cultural development
+        and virtually any kind of ethnic food can be found in this area.<br>
+      </p>
+    </div>
+    <div class="middle">
+      
+    </div>
+    <div class="right">
+      <h3>Some popular areas in East Charlotte include:</h3>
+      <p>Easthaven</p>
+      <p>Eastland</p> 
+      <p>Hickory Grove</p>
+      <p>Idlewild</p>
+      <p>Matthews</p>
+      <p>Mint Hill</p>
+      <p>Ready Creek</p>
+    </div>
+      
+    </div>
+  </div>
 </body>
 </html>
+
+
+Add Comment
