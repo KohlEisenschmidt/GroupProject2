@@ -72,4 +72,9 @@ $("#add-btn").on("click", function(event) {
     $("#area").val("");
     $("#intensity").val("");
   
+    location.replace("/matches.html");
+    
+  
   });
+
+  
