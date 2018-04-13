@@ -4,10 +4,7 @@ var path = require('path');
 module.exports = function(app){
 
     //html links
-    //all areas page
-    app.get("/allareas", function(req, res) {
-        res.sendFile(path.join(__dirname, "/../../public/allareas.html"));
-    });
+
     //the main areas page
     app.get("/area", function(req, res) {
         res.sendFile(path.join(__dirname, "/../../public/area.html"));
@@ -46,5 +43,8 @@ module.exports = function(app){
     });
     app.get("/matches", function(req, res) {
         res.sendFile(path.join(__dirname, "/../../public/matches.html"));
+    });
+    app.get("/allareas", function(req, res) {
+        res.sendFile(path.join(__dirname, "/../../public/allareas.html"));
     });
 }

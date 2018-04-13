@@ -1,0 +1,14 @@
+.jumbotron-fluid{
+    height: 30%;
+    background-color: grey;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.bg-light{
+    font-family: Arial;
+    font-size: 15px;
+}

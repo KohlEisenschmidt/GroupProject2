@@ -7,27 +7,45 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/matches.css">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/area">Areas</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+            </nav>
+    </head>
 <body>
-	
-	<div class="container">
+
+<!-- THE EXACT MATCHES -->
+ <div class="container">
 		<div class="jumbotron">
-			<h1>Your Matches</h1>
+			<h1>Exact Matches</h1>
 			<hr>
-		</div>
+		</div> 
 		<div class="row">
 
 			<div class="col-lg-12">
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title"><strong>Match Database</strong></h3>
+						<h3 class="panel-title"><strong>Your Matches</strong></h3>
 					</div>
 					<div class="panel-body" id="well-section">
-				
-					<!-- Content will go in here -->
-
 					</div>
 				</div>
 			</div>			
@@ -36,18 +54,104 @@
     <script>
 
         var exactmatch = JSON.parse(localStorage.getItem("exactmatch"));
-       for (var i = 0; i < exactmatch.length; i++){
-           $("#well-section").append("<h2>" + exactmatch[i].person_name + "</h2>");
-           $("#well-section").append("<h2>" + exactmatch[i].gender + "</h2>");
-           $("#well-section").append("<h2>" + exactmatch[i].area + "</h2>");
-
-
+        for (var i = 0; i < exactmatch.length; i++){
+                   // create a parent div for the oncoming elements
+    var wellSection = $("<div>");
+    // add a class to this div: 'well'
+    wellSection.addClass("well");
+    // append the well to the well section
+    $("#well-section").append(wellSection);
+           $("#well-section").append("<h2> Name: " + exactmatch[i].person_name + "</h2>");
+           $("#well-section").append("<h2> Gender: " + exactmatch[i].gender + "</h2>");
+           $("#well-section").append("<h2> Area: " + exactmatch[i].area + "</h2>");
+           $("#well-section").append("<h2> Pace: " + exactmatch[i].intensity + "</h2>");
+           $("#well-section").append("<h2> Activity: " + exactmatch[i].activity + "</h2>");
        }
-
-
-
-
     </script>
+
+
+
+  <!-- SAME AREA-->
+       <div class="container">
+            <div class="jumbotron">
+                <h1>Matches In Your Area</h1>
+                <hr>
+            </div> 
+            <div class="row">
+    
+                <div class="col-lg-12">
+    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><strong>Your Matches</strong></h3>
+                        </div>
+                        <div class="panel-body" id="well-section3">
+                        </div>
+                    </div>
+                </div>			
+            </div>
+        </div>
+        <script>
+    
+            var matchactivityarea = JSON.parse(localStorage.getItem("matchactivityarea"));
+            for (var i = 0; i < matchactivityarea.length; i++){
+                       // create a parent div for the oncoming elements
+        var wellSection = $("<div>");
+        // add a class to this div: 'well'
+        wellSection.addClass("well");
+        // append the well to the well section
+        $("#well-section3").append(wellSection);
+               $("#well-section3").append("<h2> Name: " + matchactivityarea[i].person_name + "</h2>");
+               $("#well-section3").append("<h2> Gender: " + matchactivityarea[i].gender + "</h2>");
+               $("#well-section3").append("<h2> Area: " + matchactivityarea[i].area + "</h2>");
+               $("#well-section3").append("<h2> Pace: " + matchactivityarea[i].intensity + "</h2>");
+               $("#well-section3").append("<h2> Activity: " + matchactivityarea[i].activity + "</h2>");
+           }
+        </script>
+
+
+
+    <!-- THIS IS FOR THE MATCHES IN OTHER LOCATIONS -->
+    <div class="container">
+            <div class="jumbotron">
+                <h1>Matches in Different Areas</h1>
+                <hr>
+            </div> 
+            <div class="row">
+    
+                <div class="col-lg-12">
+    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><strong>Your Matches</strong></h3>
+                        </div>
+                        <div class="panel-body" id="well-section2">
+    
+                        </div>
+                    </div>
+                </div>			
+            </div>
+        </div>
+                    <script>
+    
+                            var matchactivityintensity = JSON.parse(localStorage.getItem("matchactivityintensity"));
+                               for (var i = 0; i < matchactivityintensity.length; i++){
+                                       // create a parent div for the oncoming elements
+                        var wellSection = $("<div>");
+                        // add a class to this div: 'well'
+                        wellSection.addClass("well");
+                        // append the well to the well section
+                        $("#well-section2").append(wellSection);
+                               $("#well-section2").append("<h2> Name: " + matchactivityintensity[i].person_name + "</h2>");
+                               $("#well-section2").append("<h2> Gender: " + matchactivityintensity[i].gender + "</h2>");
+                               $("#well-section2").append("<h2> Area: " + matchactivityintensity[i].area + "</h2>");
+                               $("#well-section2").append("<h2> Pace: " + matchactivityintensity[i].intensity + "</h2>");
+                               $("#well-section2").append("<h2> Activity: " + matchactivityintensity[i].activity + "</h2>");
+                           }
+                        </script>
+<script>
+ window.localStorage.clear()
+</script>
 
 <script src="js/add.js" type="text/javascript"></script>
 

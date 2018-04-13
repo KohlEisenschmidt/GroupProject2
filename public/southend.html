@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
-        <head>
+<head>
 <!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="/public/assets/css/area.css">
-<title>RWB+1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/public/assets/css/area.css">
+  <title>RWB+1</title>
 
 
 <!-- this is the nav bar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/index"><img src="images/logo.png"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/area">Areas</a>
+              <a class="nav-link" href="area.html">Areas</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
           </ul>
           <span class="navbar-item">
@@ -33,8 +33,81 @@
           </span>
         </div>
       </nav>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-areas: 'left left middle middle right right'; 
+      grid-gap: 10px;
+      /* background-color: #2196F3; */
+      padding: 10px;
+    }
+    /* .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid black;
+      text-align: center;
+      font-size: 30px;
+    } */
+    h1 {
+      text-align: center;
+    }
+    .left,
+    .middle,
+    .right {
+      padding: 10px;
+      text-align: center;
+    }
+    .left {
+      grid-area: left;
+      padding-right: 300px;
+      padding-left: 150px;
+    }
+    .middle {
+      grid-area: middle;
+    }
+    .right {
+      grid-area: right;
+      padding-right: 250px;
+      padding-left: 100px;
+    }
+    .southend_img {
+      text-align: center
+    }
+    </style>    
 </head>
 <body>
-    <p>This is the south charlotte page.</p>
+    <div class="southend_img">
+        <a href="southend.html">
+          <img class="nodaPhoto" src="images/southend1.png" alt="Southend Neighborhoods">
+        </a>  
+    </div>
+    <h1> Southend </h1>
+<div class="grid-container">
+  <div class="left">
+   <h1>VIBRANT, YOUTHFUL, TRENDY</h1>
+   <p>Deeply entrenched in its mill town past, this playful district now inspires creative industries—craft beer, culinary, galleries and more.
+      
+      When the nation’s first gold rush enveloped Uptown in the early 1800s, developers unearthed a gem in the bordering land to the south. 
+      Although it wouldn’t gain its catchy South End title until 1994, the area became an extension of the Uptown gold mining district. 
+      Ingenuity struck again in 1893, when Daniel Augustus Tompkins opened Atherton Cotton Mill. Flour mills and more followed suit, 
+      making South End the city’s first industrial park. Today, that booming mill town past is still at the heart of this district—the 
+      cotton mills (now called Atherton Mill and Market) serve as galleries, furniture studios and trendy housing. The LYNX Blue Line light rail 
+      makes whizzing to Uptown and back a breeze, and the historic-turned-trendy neighborhood is now a hotbed for craft beer, culinary creativity 
+      and cultural celebrations.</p>
+  </div>
+  <div class="middle">
+    
+  </div>
+  <div class="right">
+      <h3>Some popular areas in SouthEnd/Southside include:</h3>
+      <p>Dilworth</p>
+      <p>Freedom Park</p>
+      <p>Elizabeth</p>
+      <p>Myers Park</p>
+      <p>South Park</p>
+  </div>
+   
+  </div>
+</div>
 </body>
 </html>

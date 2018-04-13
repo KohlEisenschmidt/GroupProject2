@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-        <head>
+<head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,10 +22,10 @@
               <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/area">Areas</a>
+              <a class="nav-link" href="area.html">Areas</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
           </ul>
           <span class="navbar-item">
@@ -33,8 +33,76 @@
           </span>
         </div>
       </nav>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: 'left left middle middle right right'; 
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+/* .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+} */
+h1 {
+  text-align: center;
+}
+.left,
+.middle,
+.right {
+  padding: 10px;
+  text-align: center;
+}
+.left {
+  grid-area: left;
+  padding-right: 300px;
+}
+.middle {
+  grid-area: middle;
+}
+.right {
+  grid-area: right;
+  padding-right: 250px;
+  padding-left: 100px;
+}
+.north_img {
+  text-align: center
+}
+</style>               
 </head>
 <body>
-    <p>This is the north charlotte page.</p>
+  <div class="north_img">
+      <a href="northcharlotte.html">
+        <img class="nodaPhoto" src="images/noda.png" alt="North Charlotte Neighborhoods"></a>
+  </div>
+    <h1> North Charlotte/University City</h1>
+<div class="grid-container">
+  <div class="left">
+   <h3>DRIVEN, SPIRITED, ACADEMIC</h3>
+   <p>Home to the University of North Carolina at Charlotte and more than 20 regional offices for Fortune 500 companies, University City 
+     is a lively offshoot with smarts.
+    North Charlotte/ University City is essentially (but not officially) its own city. The neighborhood is named for one shining tenant: The University of 
+    North Carolina at Charlotte. Despite its proximity to the city, the university and its lively student culture have brought college-town 
+    spirit—not to mention fun pubs, dining hot spots and extensive retail—to the area. On football Saturdays, crowds dressed in green, 
+    white and gold pile into Jerry Richardson Stadium to cheer for the Charlotte 49ers. During the week, the neighborhood is all business. 
+    With more than 20 regional offices for Fortune 500 companies in this area, University Executive Park, University Research Park and 
+    Innovation Park employ thousands, and the completion of the LYNX Blue Line light rail extension makes access to Center City faster than ever.
+  </p>
+  </div>
+  <div class="right">
+      <h3>Some popular areas in North Charlotte/University City include:</h3>
+      <p>Highland Creek</p>
+      <p>NorthLake</p>
+      <p>Concord Mills</p>
+      <p>University of North Carolina at Charlotte</p>
+      <p>Eastfield/Prosperity</p>
+  </div>
+   
+  </div>
+</div>
 </body>
 </html>
